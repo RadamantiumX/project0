@@ -1,0 +1,80 @@
+nav{
+  display: block;
+  background: #f54295;
+  text-decoration: none;
+  font-family: 'Zen Dots', cursive;
+  height:50px;
+  text-align: center;
+}
+#top{
+  font-size: 36px;
+
+}
+table{
+  width: 100%;
+
+}
+img{
+  display: block;
+  margin: auto;
+}
+
+.rem{
+  font-size: 2rem;
+}
+.cuadrado{
+  width: 5px;
+  height: 5px;
+  background: #428bca;
+}
+.cuadrado-1{
+  width: 5px;
+  height: 5px;
+  background: #03fc98;
+}
+.cuadrado-2{
+  width: 5px;
+  height: 5px;
+  background: #fc0330;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.espacio{
+  margin-bottom: 100px;
+
+}
+
+
+
+
+
+@media(max-width:767px) {
+  table{
+    width: 10%;
+
+  }
+  .top-row{
+    display: none;
+  }
+  .items{
+    display:grid;
+  }
+  .rem{
+    font-size: 1rem;
+  }
+  .Letras{
+    font-size: 1rem;
+  }
+  .titulo{
+    font-size: 2rem;
+  }
+  td{
+    width: 50%;
+  }
+  nav{
+    font-size: 1rem;
+  }
+
+}
